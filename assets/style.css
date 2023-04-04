@@ -1,0 +1,54 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+nav{
+     height: 5vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+}
+
+main{
+     width: 100%;
+     height: calc(100vh - 10vh);
+     background-color: #76EEC6;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.griglia{
+     border: 1px solid black;
+     display: flex;
+     flex-wrap: wrap;
+     width: 40%;
+     aspect-ratio: 1;
+}
+
+.box{
+     border: 1px solid black;
+     width: calc(100% / var(--numCelle) );
+     aspect-ratio: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+
+.azzurro{
+     background-color: lightblue;
+}
+
+.red{
+     background-color: red;
+}
+
+footer{
+     height: 5vh;
+     padding: 20px;
+}
